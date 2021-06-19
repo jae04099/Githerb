@@ -1,0 +1,14 @@
+{
+  "id": 3,
+  "userName": "minaKim",
+  "userJob": "FrontEnd",
+  "userDesc": "Hello, I work as a front-end engineer at the atori.\nIf you want to work on a new project together, please send me an email me.",
+  "userTier": "The Greatest Gardener",
+  "following": 12,
+  "follower": 19,
+  "plantArchive": {
+    "all": 5,
+    "inProgress": 3,
+    "done": 2
+  }
+}

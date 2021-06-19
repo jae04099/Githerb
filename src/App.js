@@ -1,10 +1,14 @@
 import './App.css';
+import TimeLineList from './components/Overview/TimeLineLists/TimeLineList';
+import { PlantInfoProvider } from './contexts/plant'
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <PlantInfoProvider>
+      <div className="App">
+        <TimeLineList />
+      </div>
+    </PlantInfoProvider>
   );
 }
 
