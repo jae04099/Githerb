@@ -1,10 +1,14 @@
 import './App.css';
+import TimeLineList from './components/Overview/TimeLineLists/TimeLineList';
+import { CommitProvider } from './contexts/github'
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <CommitProvider>
+      <div className="App">
+        <TimeLineList />
+      </div>
+    </CommitProvider>
   );
 }
 
