@@ -1,0 +1,28 @@
+{
+    "id": 1,
+    "userID": 3,
+    "plantName": "푸릇한 새싹",
+    "plantLevel": 1,
+    "status": "inProgress",
+    "repoName": "Githerb",
+    "repoDesc": "깃허브의 커밋에 따라 식물을 키워서 개발에 재미를 느낄 수 있도록 한다.",
+    "startDate": "2020.01.01",
+    "deadLine": "2020.01.31",
+    "commitCycle": 3,
+    "Totalcommit": 10,
+    "commitCount": 5,
+    "commit": [
+        {
+            "date": "2021-04-20T15:00:37Z",
+            "message": "커밋 메세지1"
+        },
+        {
+            "date": "2021-04-20T15:00:37Z",
+            "message": "커밋 메세지2"
+        }
+    ],
+    "comLang": {
+        "C": { "percentage": 1, "usedLine": 32 },
+        "Java": { "percentage": 75, "usedLine": 4928 }
+    }
+}
