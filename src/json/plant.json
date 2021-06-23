@@ -6,25 +6,57 @@
     "status": "inProgress",
     "repoName": "Githerb",
     "repoDesc": "깃허브의 커밋에 따라 식물을 키워서 개발에 재미를 느낄 수 있도록 한다.",
-    "startDate": "2020.01.01",
-    "deadLine": "2020.01.31",
+    "startDate": "2021.04.20",
+    "deadLine": "2021.04.31",
     "commitCycle": 3,
     "Totalcommit": 10,
     "commitCount": 5,
     "commit": [
-        {
-            "date": "2021-04-20T15:00:37Z",
-            "committer": "Lena",
-            "message": "커밋 메세지1"
-        },
-        {
-            "date": "2021-04-20T15:00:37Z",
-            "committer": "Lena",
-            "message": "커밋 메세지2"
-        }
+      {
+          "date": "2021-04-20T15:00:37Z",
+          "committer": "Lena",
+          "message": "커밋 메세지1"
+      },
+      {
+          "date": "2021-04-20T15:00:37Z",
+          "committer": "Lena",
+          "message": "커밋 메세지2"
+      },
+      {
+          "date": "2021-04-21T15:00:37Z",
+          "committer": "Junbbin",
+          "message": "커밋 메세지3"
+      },
+      {
+          "date": "2021-04-21T15:00:37Z",
+          "committer": "Junbbin",
+          "message": "커밋 메세지4"
+      },
+      {
+          "date": "2021-04-22T15:00:37Z",
+          "committer": "Lena",
+          "message": "커밋 메세지5"
+      },
+      {
+          "date": "2021-04-22T15:00:37Z",
+          "committer": "Junbbin",
+          "message": "커밋 메세지6"
+      },
+      {
+          "date": "2021-04-23T15:00:37Z",
+          "committer": "Junbbin",
+          "message": "커밋 메세지7"
+      },
+      {
+          "date": "2021-04-23T15:00:37Z",
+          "committer": "Lena",
+          "message": "커밋 메세지8"
+      }
     ],
     "comLang": {
-        "C": { "percentage": 1, "usedLine": 32 },
-        "Java": { "percentage": 75, "usedLine": 4928 }
+        "C": { "percentage": 2, "usedLine": 322 },
+        "Java": { "percentage": 23, "usedLine": 4500 },
+        "Python": { "percentage": 45, "usedLine": 5568 },
+        "Go": { "percentage": 30, "usedLine": 4928 }
     }
 }
