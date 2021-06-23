@@ -14,12 +14,10 @@
     "commit": [
         {
             "date": "2021-04-20T15:00:37Z",
-            "committer": "Lena",
             "message": "커밋 메세지1"
         },
         {
             "date": "2021-04-20T15:00:37Z",
-            "committer": "Lena",
             "message": "커밋 메세지2"
         }
     ],
