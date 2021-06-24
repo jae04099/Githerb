@@ -1,13 +1,12 @@
 import React, { useContext } from 'react'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { CommitContext } from '../../../../contexts/github'
+import { PlantInfoContext } from '../../../../contexts/plant'
 
 const TimeLine = ({ value }) => {
-    const [commit, setCommit] = useContext(CommitContext)
-    const date = commit[value].commit.author.date
+    const [plantInfo, setPlantInfo] = useContext(PlantInfoContext)
+    const date = plantInfo.commit[value].date
     const finalDate = date.substr(0, 10);
-    console.log(finalDate)
     return (
         <div className="timeline">
             <VerticalTimelineElement
@@ -18,10 +17,9 @@ const TimeLine = ({ value }) => {
                 iconStyle={{ background: '#0CDAAC', color: '#fff' }}
                 position={'right'}
             >
-                <h3 className="vertical-timeline-element-title">Commit Message: {commit[value].commit.message}</h3>
-                {/* <h4 className="vertical-timeline-element-subtitle">{commit[0].commit.committer.name}</h4> */}
+                <h3 className="vertical-timeline-element-title">Message: {plantInfo.commit[value].message}</h3>
                 <p>
-                    Committer: {commit[value].commit.committer.name}
+                    Committer: {plantInfo.commit[value].committer}
                 </p>
             </VerticalTimelineElement>
         </div>

@@ -1,14 +1,14 @@
 import './App.css';
 import TimeLineList from './components/Overview/TimeLineLists/TimeLineList';
-import { CommitProvider } from './contexts/github'
+import { PlantInfoProvider } from './contexts/plant'
 
 function App() {
   return (
-    <CommitProvider>
+    <PlantInfoProvider>
       <div className="App">
         <TimeLineList />
       </div>
-    </CommitProvider>
+    </PlantInfoProvider>
   );
 }
 
