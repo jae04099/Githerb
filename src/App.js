@@ -1,14 +1,16 @@
 import './App.css';
 import LangGraph from './components/Graph/LanguageGraph/LanguageGraph'
-import { UsedLanguageProvider } from './contexts/github'
+import { PlantInfoProvider, UsedLangProvider } from './contexts/plant'
 
 function App() {
   return (
-    <UsedLanguageProvider>
-      <div className="App">
-        <LangGraph />
-      </div>
-    </UsedLanguageProvider>
+    <PlantInfoProvider>
+      <UsedLangProvider>
+        <div className="App">
+          <LangGraph />
+        </div>
+      </UsedLangProvider>
+    </PlantInfoProvider>
   );
 }
 
