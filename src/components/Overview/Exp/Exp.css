@@ -1,0 +1,12 @@
+.Exp_Container {
+  display: flex;
+  height: 300px;
+}
+
+p {
+  margin: 0px;
+}
+
+.commitHeader {
+  writing-mode: vertical-rl;
+}
