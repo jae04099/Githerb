@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import ExpGraph from "../../Graph/ExpGraph";
 import { PlantInfoContext } from '../../../contexts/plant'
 import './Exp.css'
@@ -26,8 +26,11 @@ const makeGraphObj = (list) => {
 
 export default function Exp() {
   const [plantInfo, setPlantInfo] = useContext(PlantInfoContext);
+  const [ExpData, setExpData] = useState({});
 
-  const ExpData = makeGraphObj(plantInfo.commit);
+  useEffect(() => {
+    setExpData(makeGraphObj(plantInfo.commit))
+  }, [plantInfo]);
 
   return (
     <>
