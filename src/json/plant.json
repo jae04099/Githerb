@@ -138,11 +138,10 @@
             "message": "Refactor Settings"
         }
     ],
-    "comLang": {
-        "C": { "percentage": 2, "usedLine": 322 },
-        "Java": { "percentage": 23, "usedLine": 4500 },
-        "Python": { "percentage": 45, "usedLine": 5568 },
-        "Go": { "percentage": 30, "usedLine": 4928 }
-    }
-
-}
+  "comLang":[
+    {"lang": "C", "percentage": 2, "usedLine": 332}, 
+    {"lang": "Java", "percentage": 23, "usedLine": 4500}, 
+    {"lang": "Python", "percentage": 45, "usedLine": 5568}, 
+    {"lang": "Go", "percentage": 30, "usedLine": 4928}
+  ]
+  }
