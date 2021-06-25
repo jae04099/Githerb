@@ -9,9 +9,9 @@ function App() {
     <PlantInfoProvider>
       <UsedLangProvider>
         <div className="App">
-          <LangGraph />
-          <TimeLineList />
-        {/* <Exp style={{ width: "500px", height: "300px" }} /> */}
+          {/* <LangGraph />
+          <TimeLineList /> 
+          <Exp style={{ width: "500px", height: "300px" }} /> */}
         </div>
       </UsedLangProvider>
     </PlantInfoProvider>
