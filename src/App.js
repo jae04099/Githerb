@@ -14,8 +14,8 @@ function App() {
           {/* <LangGraph />*/}
           {/* <TimeLineList /> */}
           {/* <Exp style={{ width: "500px", height: "300px" }} /> */}
-          {/* <DayCommit /> */}
-          <Calendar />
+          <DayCommit />
+          {/* <Calendar /> */}
         </div>
       </UsedLangProvider>
     </PlantInfoProvider>

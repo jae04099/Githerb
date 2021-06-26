@@ -50,7 +50,7 @@ export default function DayCommitGraph({ data }) {
     });
 
     return () => graph.destroy();
-  }, []);
+  }, [data]);
 
   return (
     <div>
