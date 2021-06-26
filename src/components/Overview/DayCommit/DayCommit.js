@@ -2,7 +2,6 @@ import React, { useState, useContext, useEffect } from 'react'
 import DayCommitGraph from '../../Graph/DayCommitGraph'
 import { PlantInfoContext } from '../../../contexts/plant'
 
-
 const makeDayCommitFormat = (commitList) => {
   const newArr = [0, 0, 0, 0];
   for (let { date } of commitList) {
@@ -24,7 +23,6 @@ export default function DayCommit() {
   useEffect(() => {
     setDayCommitData(makeDayCommitFormat(plantInfo.commit))
   }, [plantInfo]);
-
 
   return (
     <div>
