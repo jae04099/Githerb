@@ -1,71 +1,61 @@
-# Getting Started with Create React App
+# 🌿 GitHerb(Frontend only)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Backend Repository](https://github.com/BeomjunLee/Githerb)
 
-## Available Scripts
 
-In the project directory, you can run:
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/47337588/123502657-00f74200-d689-11eb-8657-574a0555da7a.png">
+</p>
 
-### `npm start`
+잔디 키우기를 조금 더 즐겁게 할 수는 없을까?<br/>
+잔디를 넘어 다양한 단계로 레포지토리의 꽃을 피워보세요.<br/>
+컴포넌트의 커밋 목표를 세우고 실천해보세요. 나도 모르는 사이에 실력이 늘어있을걸요? :smile:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## ✔️ 주요 기능
 
-### `npm test`
+* 목표를 세울 레포지토리를 선택하고 기간을 정한 후 최소한의 커밋 주기를 설정할 수 있습니다.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* 레포지토리 내 커밋 진행 상황을 여러 그래프들로 확인 가능합니다.
 
-### `npm run build`
+* 커밋 타임라인, 레포지토리에서 사용 된 언어, 레포지토리 커밋 시간대, 커밋 횟수 등을 보여줍니다.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* 레포지토리를 커밋시키고 레벨 업 시킬 수 있습니다. 레포지토리를 설정 한 커밋 목표를 달성한다면, 식물을 성장시켜 꽃을 피울 수 있습니다 🌼
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* 랜덤으로 부여받는 새싹으로 식물을 키워 꽃을 모아보세요.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## ✔️ 메인
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Group 53](https://user-images.githubusercontent.com/47337588/123502765-c0e48f00-d689-11eb-9f45-403e8a5224c2.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## ✔️ 개발 도구
 
-## Learn More
+아래의 주요한 기술을 이용했습니다.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* [React](https://ko.reactjs.org/)
+* [Chart.js](https://www.chartjs.org/)
+* [React Nice Dates](https://reactnicedates.hernansartorio.com/)
+* [Moment.js](https://momentjs.com/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## ✔️ 실행 방법
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```javascript
+git clone https://github.com/jae04099/Githerb.git
+npm install
+npm run start
+```
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+<!-- ACKNOWLEDGEMENTS -->
+## ✔️ 디자인 출처
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Font Awesome](https://fontawesome.com)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Githerb

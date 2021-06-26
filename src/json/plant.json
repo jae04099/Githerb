@@ -1,28 +1,148 @@
 {
-    "id": 1,
-    "userID": 3,
-    "plantName": "푸릇한 새싹",
-    "plantLevel": 1,
-    "status": "inProgress",
-    "repoName": "Githerb",
-    "repoDesc": "깃허브의 커밋에 따라 식물을 키워서 개발에 재미를 느낄 수 있도록 한다.",
-    "startDate": "2020.01.01",
-    "deadLine": "2020.01.31",
-    "commitCycle": 3,
-    "Totalcommit": 10,
-    "commitCount": 5,
-    "commit": [
-        {
-            "date": "2021-04-20T15:00:37Z",
-            "message": "커밋 메세지1"
-        },
-        {
-            "date": "2021-04-20T15:00:37Z",
-            "message": "커밋 메세지2"
-        }
-    ],
-    "comLang": {
-        "C": { "percentage": 1, "usedLine": 32 },
-        "Java": { "percentage": 75, "usedLine": 4928 }
+  "id": 1,
+  "userID": 3,
+  "plantName": "행복한 줄기",
+  "plantLevel": 2,
+  "status": "inProgress",
+  "repoName": "Lv.dev",
+  "repoDesc": "개발자의, 개발자에 의한, 개발자를 의한 개발 커뮤니티입니다.\n개발을 처음 접하는 사람들 부터 현직자까지, 모두에게 평등하고 배움의 기회를 제공하는 Lv.dev입니다.\n당신의 dev 레벨을 어떠신가요? Lv.dev에서 개발 능력을 키워보세요!",
+  "startDate": "2021.04.02",
+  "deadLine": "2021.07.11",
+  "commitCycle": 5,
+  "Totalcommit": 100,
+  "commitCount": 25,
+  "commit": [
+    {
+      "date": "2021-04-02T07:00:37Z",
+      "committer": "minaKim",
+      "message": "First Init - Lv.dev"
+    },
+    {
+      "date": "2021-04-04T07:00:37Z",
+      "committer": "minaKim",
+      "message": "Refactor file structure"
+    },
+    {
+      "date": "2021-04-05T07:00:37Z",
+      "committer": "minaKim",
+      "message": "Make calendar component"
+    },
+    {
+      "date": "2021-04-07T07:00:37Z",
+      "committer": "minaKim",
+      "message": "Remove deprecated methods"
+    },
+    {
+      "date": "2021-04-08T08:00:37Z",
+      "committer": "minaKim",
+      "message": "Refactor calendar component"
+    },
+    {
+      "date": "2021-04-10T15:00:37Z",
+      "committer": "minaKim",
+      "message": "Merge pull request #123 from user/branch"
+    },
+    {
+      "date": "2021-04-11T15:00:37Z",
+      "committer": "minaKim",
+      "message": "Refactor subsystem X for readability"
+    },
+    {
+      "date": "2021-04-13T15:00:37Z",
+      "committer": "minaKim",
+      "message": "Make timeLine component"
+    },
+    {
+      "date": "2021-04-14T15:00:37Z",
+      "committer": "minaKim",
+      "message": "Apply CSS"
+    },
+    {
+      "date": "2021-04-17T15:00:37Z",
+      "committer": "minaKim",
+      "message": "Make new branch - SubscribeBranch"
+    },
+    {
+      "date": "2021-04-20T15:00:37Z",
+      "committer": "minaKim",
+      "message": "Bug Fix"
+    },
+    {
+      "date": "2021-04-23T15:00:37Z",
+      "committer": "minaKim",
+      "message": "Change style"
+    },
+    {
+      "date": "2021-04-24T15:00:37Z",
+      "committer": "minaKim",
+      "message": "changed host profile input with debouncer"
+    },
+    {
+      "date": "2021-04-27T19:00:37Z",
+      "committer": "minaKim",
+      "message": "Merge branch 'user_branch' into searchBarTest"
+    },
+    {
+      "date": "2021-04-28T19:00:37Z",
+      "committer": "minaKim",
+      "message": "Lapping it up, will work on sign up and sign in modal"
+    },
+    {
+      "date": "2021-05-01T19:00:37Z",
+      "committer": "minaKim",
+      "message": "Change sign up, sign in modal"
+    },
+    {
+      "date": "2021-05-02T19:00:37Z",
+      "committer": "minaKim",
+      "message": "Bug fix"
+    },
+    {
+      "date": "2021-05-04T19:00:37Z",
+      "committer": "minaKim",
+      "message": "Refactor user page"
+    },
+    {
+      "date": "2021-05-04T19:00:37Z",
+      "committer": "minaKim",
+      "message": "Make user login modal"
+    },
+    {
+      "date": "2021-05-10T19:00:37Z",
+      "committer": "minaKim",
+      "message": "Apply sign up CSS"
+    },
+    {
+      "date": "2021-05-14T19:00:37Z",
+      "committer": "minaKim",
+      "message": "Change data validation method"
+    },
+    {
+      "date": "2021-05-16T19:00:37Z",
+      "committer": "minaKim",
+      "message": "Refactor data validation"
+    },
+    {
+      "date": "2021-05-20T19:00:37Z",
+      "committer": "minaKim",
+      "message": "Make user setting component"
+    },
+    {
+      "date": "2021-05-20T02:00:37Z",
+      "committer": "minaKim",
+      "message": "Bug fix"
+    },
+    {
+      "date": "2021-05-25T02:00:37Z",
+      "committer": "minaKim",
+      "message": "Refactor Settings"
     }
+  ],
+  "comLang": {
+    "C": { "percentage": 2, "usedLine": 322 },
+    "Java": { "percentage": 23, "usedLine": 4500 },
+    "Python": { "percentage": 45, "usedLine": 5568 },
+    "Go": { "percentage": 30, "usedLine": 4928 }
+  }
 }
+
