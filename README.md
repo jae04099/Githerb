@@ -39,6 +39,7 @@
 * [Chart.js](https://www.chartjs.org/)
 * [React Nice Dates](https://reactnicedates.hernansartorio.com/)
 * [Moment.js](https://momentjs.com/)
+* [nivo](https://nivo.rocks/)
 
 
 ## ✔️ 실행 방법
