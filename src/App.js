@@ -15,7 +15,7 @@ function App() {
       <UserInfoProvider>
         <UsedLangProvider>
           <div className="App">
-            {/* <RepoDesc /> */}
+            <RepoDesc />
             {/* <LangGraph />*/}
             {/* <TimeLineList /> */}
             {/* <Exp style={{ width: "500px", height: "300px" }} /> */}
