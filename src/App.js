@@ -6,6 +6,7 @@ import LangGraph from './components/Graph/LanguageGraph/LanguageGraph'
 import NextLevel from './components/Overview/NextLevel/NextLevel'
 import Calendar from './components/Overview/Calendar/Calendar'
 import RepoDesc from './components/Overview/RepoDescription/RepoDescription'
+import PlantProfile from './components/Overview/PlantProfile/PlantProfile'
 import { PlantInfoProvider, UsedLangProvider } from './contexts/plant'
 import { UserInfoProvider } from './contexts/user'
 
@@ -15,6 +16,7 @@ function App() {
       <UserInfoProvider>
         <UsedLangProvider>
           <div className="App">
+            <PlantProfile></PlantProfile>
             {/* <RepoDesc /> */}
             {/* <LangGraph />*/}
             {/* <TimeLineList /> */}

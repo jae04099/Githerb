@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
-import NextLevelGraph from '../../Graph/NextLevelGraph'
 import { PlantInfoContext } from '../../../contexts/plant'
+import NextLevelGraph from '../../Graph/NextLevelGraph'
 
 export default function NextLevel() {
   const [plantInfo, setPlantInfo] = useContext(PlantInfoContext);

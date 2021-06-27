@@ -1,0 +1,30 @@
+.plantContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plantImg {
+  width: 200px;
+  height: 200px;
+  background: url("./sample_plant.png") no-repeat center / cover;
+}
+
+.plantName {
+  margin: 20px 0 10px 0;
+  font-weight: bold;
+  font-size: 30px;
+  color: #4f4f4f;
+}
+
+.plantLevel {
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0px 0 20px 0;
+  color: #6a6a6a;
+}
+
+.plantDate {
+  color: #6a6a6a;
+  margin-bottom: 40px;
+}
