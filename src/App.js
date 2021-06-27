@@ -9,23 +9,28 @@ import RepoDesc from './components/Overview/RepoDescription/RepoDescription'
 import PlantProfile from './components/Overview/PlantProfile/PlantProfile'
 import { PlantInfoProvider, UsedLangProvider } from './contexts/plant'
 import { UserInfoProvider } from './contexts/user'
+import { BrowserRouter } from 'react-router-dom'
+import { Routes } from "./routes/Routes";
+
 
 function App() {
   return (
-    <PlantInfoProvider>
-      <UserInfoProvider>
-        <UsedLangProvider>
-          <div className="App">
-            <RepoDesc />
-            {/* <LangGraph />*/}
-            {/* <TimeLineList /> */}
-            {/* <Exp style={{ width: "500px", height: "300px" }} /> */}
-            {/* <DayCommit /> */}
-            {/* <Calendar /> */}
-          </div>
-        </UsedLangProvider>
-      </UserInfoProvider>
-    </PlantInfoProvider>
+    <BrowserRouter>
+      <PlantInfoProvider>
+        <UserInfoProvider>
+          <UsedLangProvider>
+            <div className="App">
+              {/* <RepoDesc /> */}
+              {/* <LangGraph />*/}
+              {/* <TimeLineList /> */}
+              {/* <Exp style={{ width: "500px", height: "300px" }} /> */}
+              {/* <DayCommit /> */}
+              {/* <Calendar /> */}
+            </div>
+          </UsedLangProvider>
+        </UserInfoProvider>
+      </PlantInfoProvider>
+    </BrowserRouter>
   );
 }
 
