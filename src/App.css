@@ -2,8 +2,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
 
+:root {
+  --main-light-background-color: #F2F3F7;
+  --main-light-content-colot: rgba(255, 255, 255, 87);
+  --dark-font-color: #121212;
+  --main-green-color: #1BC47D;  /*header용?*/
+  --main-mint-color: #0CDAAC;
+}
+
 body {
   font-family: "Poppins", "Noto Sans KR", "Roboto", sans-serif;
+  height: 2000px; /*for test header scroll*/
   /* background-color: rgb(66, 66, 66); */
 }
 
