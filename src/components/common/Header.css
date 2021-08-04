@@ -1,13 +1,16 @@
 .header-grid-wrap {
     display: grid;
     background: rgb(255, 180, 180);
+    width: 100%;
     height: 100px;
-    grid-template-columns: 10% 1fr 2fr 10%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    grid-template-columns: 1fr 2fr;
 }
 
 .header-logo-wrap {
     display: grid;
-    grid-column: 2/3;
+    grid-column: 1/2;
 }
 
 .logo {
@@ -17,7 +20,7 @@
 
 .header-nav-wrap {
     display: grid;
-    grid-column: 3/4;
+    grid-column: 2/3;
 }
 
 .header-flex-wrap{

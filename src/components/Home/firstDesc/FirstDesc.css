@@ -1,0 +1,33 @@
+.firstDescWrap {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.flexWrap {
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.flexWrap > .descPart > h1 {
+    font-size: 3rem;
+    color: var(--dark-font-color);
+    line-height: 4.5rem;
+}
+.flexWrap > .descPart > h1 > span {
+    color: var(--main-green-color);
+}
+.flexWrap > .descPart > p {
+    font-size: 1.2rem;
+    color: var(--gray-font-color);
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.firstImg img {
+    width: 15rem;
+    height: auto;
+}
