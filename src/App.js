@@ -21,8 +21,8 @@ function App() {
         <UsedLangProvider>
           <div className="App">
             <Header />
-            {/* <MyPage /> */}
-            <Home />
+            <MyPage />
+            {/* <Home /> */}
             {/* <RepoDesc /> */}
             {/* <LangGraph />*/}
             {/* <TimeLineList /> */}

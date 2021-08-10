@@ -1,0 +1,10 @@
+.MyPageWrap {
+    display: grid;
+    /* sample */
+    background-color: beige;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 45% 10% 45%;
+    grid-gap: 10px;
+}
