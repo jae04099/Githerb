@@ -8,7 +8,12 @@ import UserArchive from '../components/MyPage/UserArchive/UserArchive'
 const MyPage = () => {
     return (
         <>
-            <div className="MyPageWrap">hhhh</div>
+            <div className="MyPageWrap">
+                <Profile />
+                <RepoOverview />
+                <UserArchive />
+                <MyRepoLists />
+            </div>
         </>
     )
 }

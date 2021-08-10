@@ -3,9 +3,9 @@ import './UserArchive.css'
 
 const UserArchive = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <div className="userArchiveWrap">user archive comp</div>
+        </>
     )
 }
 

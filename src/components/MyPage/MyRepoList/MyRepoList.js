@@ -3,9 +3,9 @@ import './MyRepoList.css'
 
 const MyRepoList = () => {
     return (
-        <div>
-            MyRepoList
-        </div>
+        <>
+            <div className="myRepoListWrap">my repo lists comp</div>
+        </>
     )
 }
 

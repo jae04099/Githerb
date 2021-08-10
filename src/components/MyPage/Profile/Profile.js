@@ -3,9 +3,9 @@ import './Profile.css'
 
 const Profile = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <div className="profileWrap">Profile comp</div>
+        </>
     )
 }
 

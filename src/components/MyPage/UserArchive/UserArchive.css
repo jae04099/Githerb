@@ -1,0 +1,6 @@
+.userArchiveWrap {
+    background: rgb(255, 157, 157);
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 2/3;
+}

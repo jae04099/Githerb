@@ -3,9 +3,9 @@ import './RepoOverview.css'
 
 const RepoOverview = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <div className="repoOverviewWrap">Repo Overview comp</div>
+        </>
     )
 }
 
