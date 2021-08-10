@@ -3,6 +3,8 @@
     display: grid;
     height: 15rem;
     padding: 0;
+    grid-row: 3/4;
+    grid-column: 1/4;
     grid-template-columns: 10% 1fr 3fr 10%;
     grid-template-rows: 10% 1fr 30%;
     color: var(--main-light-content-colot);

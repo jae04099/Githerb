@@ -5,6 +5,7 @@
 :root {
     --main-light-background-color: #f2f3f7;
     --main-light-content-colot: rgba(255, 255, 255, 87);
+    --footer-dark-color: rgb(60, 60, 60);
     --dark-font-color: #121212;
     --gray-font-color: #777777;
     --main-green-color: #1bc47d; /*header용?*/
@@ -13,13 +14,19 @@
 
 body {
     font-family: "Poppins", "Noto Sans KR", "Roboto", sans-serif;
-    height: 2000px; /*for test header scroll*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     /* background-color: rgb(66, 66, 66); */
-}
-
-.bgc {
 }
 
 .timeline {
     margin-bottom: 1rem;
+}
+
+
+.App {
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+    grid-template-rows: 5% 1fr 10%;
 }
