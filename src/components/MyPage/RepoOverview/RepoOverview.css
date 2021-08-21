@@ -1,0 +1,6 @@
+.repoOverviewWrap {
+    background-color: rgb(255, 177, 255);
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}

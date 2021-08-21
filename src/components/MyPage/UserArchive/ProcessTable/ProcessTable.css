@@ -1,0 +1,18 @@
+.process_wrap {
+    background-color: rgb(145, 30, 30);
+    width: 45%;
+}
+
+.process_wrap > ul {
+    display: flex;
+    padding: 0;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.process_wrap > ul > li {
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: column;
+    
+}

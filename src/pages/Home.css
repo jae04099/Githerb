@@ -1,5 +1,7 @@
 .home {
     display: grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
     grid-template-columns: 10% 1fr 10%;
     grid-template-rows: 1 5fr 2fr;
 }

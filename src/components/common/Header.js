@@ -5,7 +5,7 @@ import './Header.css'
 const Header = () => {
     return (
         <>
-            <div className="header-grid-wrap">
+            <nav className="header-grid-wrap">
                 <div className="header-logo-wrap">
                     <div className="logo"><img src={logo} alt="logoimage" /></div>
                 </div>
@@ -20,7 +20,7 @@ const Header = () => {
                         <button className="login">login</button>
                     </div>
                 </div>
-            </div>
+            </nav>
         </>
     )
 }

@@ -1,0 +1,15 @@
+.myRepoListWrap {
+    background-color: rgb(184, 186, 255);
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.repoItemWrap {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.last-comp {
+    margin-left:auto;
+}
