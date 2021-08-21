@@ -23,6 +23,7 @@ ul.footerWrap > .logoWrap {
 
 ul {
     list-style: none;
+    margin: 0;
 }
 
 ul.footerWrap > .logoWrap > li > img {

@@ -1,6 +1,14 @@
-.userArchiveWrap {
+.userArchiveGridWrap {
     background: rgb(255, 157, 157);
+    border: 1px solid #202020;
+    border-radius: 20px;
     display: grid;
     grid-row: 2/3;
     grid-column: 2/3;
+}
+
+.userArchiveFlexWrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }

@@ -21,6 +21,7 @@ function App() {
         <UsedLangProvider>
           <div className="App">
             <Header />
+            <Header />
             <MyPage />
             {/* <Home /> */}
             {/* <RepoDesc /> */}
