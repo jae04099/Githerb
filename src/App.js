@@ -13,28 +13,33 @@ import Home from './pages/Home'
 import MyPage from './pages/MyPage'
 import { PlantInfoProvider, UsedLangProvider } from './contexts/plant'
 import { UserInfoProvider } from './contexts/user'
+import { BrowserRouter } from 'react-router-dom'
+import { Routes } from "./routes/Routes";
+
 
 function App() {
   return (
-    <PlantInfoProvider>
-      <UserInfoProvider>
-        <UsedLangProvider>
-          <div className="App">
-            <Header />
-            <Header />
-            <MyPage />
-            {/* <Home /> */}
-            {/* <RepoDesc /> */}
-            {/* <LangGraph />*/}
-            {/* <TimeLineList /> */}
-            {/* <Exp style={{ width: "500px", height: "300px" }} /> */}
-            {/* <DayCommit /> */}
-            {/* <Calendar /> */}
-            <Footer />
-          </div>
-        </UsedLangProvider>
-      </UserInfoProvider>
-    </PlantInfoProvider>
+    <BrowserRouter>
+      <PlantInfoProvider>
+        <UserInfoProvider>
+          <UsedLangProvider>
+            <div className="App">
+              <Header />
+              <Header />
+              <MyPage />
+              {/* <Home /> */}
+              {/* <RepoDesc /> */}
+              {/* <LangGraph />*/}
+              {/* <TimeLineList /> */}
+              {/* <Exp style={{ width: "500px", height: "300px" }} /> */}
+              {/* <DayCommit /> */}
+              {/* <Calendar /> */}
+              <Footer />
+            </div>
+          </UsedLangProvider>
+        </UserInfoProvider>
+      </PlantInfoProvider>
+    </BrowserRouter>
   );
 }
 
