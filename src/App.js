@@ -7,6 +7,7 @@ import NextLevel from './components/Overview/NextLevel/NextLevel'
 import Calendar from './components/Overview/Calendar/Calendar'
 import RepoDesc from './components/Overview/RepoDescription/RepoDescription'
 import PlantProfile from './components/Overview/PlantProfile/PlantProfile'
+import Home from './pages/Home'
 import { PlantInfoProvider, UsedLangProvider } from './contexts/plant'
 import { UserInfoProvider } from './contexts/user'
 import { BrowserRouter } from 'react-router-dom'
@@ -20,6 +21,7 @@ function App() {
         <UserInfoProvider>
           <UsedLangProvider>
             <div className="App">
+              <Home />
               {/* <RepoDesc /> */}
               {/* <LangGraph />*/}
               {/* <TimeLineList /> */}
